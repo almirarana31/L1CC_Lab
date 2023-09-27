@@ -1,18 +1,14 @@
 
-
+L1cc = []
 person1 = {
     "First_name":"Jeff",
     "Last_name":"-",
     "Age":"10",
 }
 
-person2 = {
-    "First_name":"-",
-    "Last_name":"-",
-    "Age":"-",
-}
+L1cc.append(person1)
 
-L1cc = [person1,person2]
+
 
 i = 1
 
