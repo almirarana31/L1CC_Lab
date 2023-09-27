@@ -12,9 +12,7 @@ Assignment:
 '''
 
 
-a = input("Enter a number: ")
-b = input("Enter a numeber: ")
+a = "hello"
 
-if a.replace(',',"").isdigit() and b.replace(',',"").isdigit():
-  print(float(a) +float(b))
+print(a)
     
