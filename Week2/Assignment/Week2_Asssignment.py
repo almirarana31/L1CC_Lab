@@ -10,3 +10,11 @@ Assignment:
 
 - (optional): Create another type of calculator inside the program (example: BMI calculator, financial calculators, etc)
 '''
+
+
+a = input("Enter a number: ")
+b = input("Enter a numeber: ")
+
+if a.replace(',',"").isdigit() and b.replace(',',"").isdigit():
+  print(float(a) +float(b))
+    
